@@ -1,0 +1,155 @@
+body {
+  font-family: 'Marcellus SC', 'Georgia', serif;
+}
+
+a {
+  color: #1c84f8;
+}
+
+a:hover {
+  color: #d33d56;
+}
+
+p {
+  font-size: 17px;
+  margin: 0 0 12px 0;
+  line-height: 19px;
+}
+
+p.small {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+h2 {
+  margin-top: -5px;
+  line-height: 26px;
+}
+
+p.intro {
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: 100;
+  color: #2e2e2e;
+}
+
+/* /// - Menu Item Title Style - /// */
+.fdm-item-panel .fdm-item-title {
+  font-family: 'Marcellus SC', 'Georgia', serif;
+  font-size: 21px;
+  margin-bottom: 9px;
+}
+
+.fdm-item-content p {
+  font-size: 16px;
+  margin: 4px 4% 15px 4%;
+  font-style: italic;
+  line-height: 17px;
+}
+
+.panel-widget-style {
+  text-align: center;
+  border-top-style: solid;
+  border-top-color: rgba(150, 150, 150, 0.15);
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: rgba(130, 130, 130, 0.20);
+  border-bottom-style: solid;
+  border-bottom-color: rgba(101, 101, 101, 0.25);
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-right-color: rgba(101, 101, 101, 0.15);
+  margin-bottom: 30px;
+}
+
+body:not(.blog) .entry-content h3 {
+  text-align: center;
+  font-size: 1.54em;
+  line-height: 27px;
+  font-weight: 100;
+}
+
+#main.site-main {
+  background-image: url("/wp-content/uploads/2016/05/white-linen.png");
+}
+
+.menu-primary-menu-container {
+  background-color: #ffffff;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(101, 101, 101, 0.25);
+  border-bottom-style: solid;
+}
+
+.entry-title {
+  display: none;
+}
+
+::selection {
+  background-color: #d33d56;
+  color: #fff;
+}
+
+.widget-title, H3 {
+  font-family: 'Marcellus SC', 'Georgia', serif;
+  font-weight: 700;
+  font-size: 27px;
+  padding-bottom: 3px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px){
+  /* /// - MOBILE Menu Item Title Style - /// */
+.fdm-menu-title,
+  .fdm-section-header h3,
+  .fdm-item-panel .fdm-item-title,
+  .fdm-src-panel p.src-title {
+    font-size: 18px;
+  }
+
+  
+  .site-logo-link a {
+  font-family: 'Marcellus SC', 'Georgia', serif;
+}
+  
+  
+  
+  /* /// - MOBILE Menu Item Description Style - /// */
+.fdm-item-content p {
+    font-size: 14px;
+    margin: 4px 5% 6px 5%;
+    font-style: italic;
+    line-height: 15px;
+  }
+
+  .panel-widget-style {
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 15px;
+    margin: 0 0 14px 0;
+    line-height: 17px;
+  }
+
+  .site-logo-link {
+    margin-top: 13px;
+    margin-bottom: -10px;
+    min-width: 265px;
+  }
+
+  .hero-content-area .site-logo-link {
+    position: relative;
+    top: -40px;
+    min-width: 100%;
+    padding: 0px;
+    max-height: 200px;
+  }
+
+  p.small {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+}
